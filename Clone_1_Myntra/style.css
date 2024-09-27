@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+height: 100%;
+width: 100%;
+}
+.navbar{
+    height: 12%;
+    width: 100%;
+    border-bottom: 1.5px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 500;
+    top: 0%;
+    background-color: #fff;
+}
+
+.logo{
+    height: 45px;
+    width: 60px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.typesection{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.9em;
+    font-weight: 600;
+    font-size: 0.84em;
+}
+.typesection:hover{
+    cursor: pointer;
+}
+.men:hover, .women:hover, .kids:hover, .homeandliving:hover, .beauty:hover, .studio:hover{
+    border-bottom: solid 2px rgb(231, 18, 54);
+} 
+.searchbar{
+    height: 45%;
+    width: 30%;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar:hover{
+    cursor: pointer;
+}
+#search{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+.searchicon{
+    background-color: rgb(236, 236, 236);
+    padding: 1.8%;
+    color: rgb(49, 48, 48);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2em;
+    padding-right: 2em;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.menuicon{
+    text-align: center;
+    font-size: 0.9em;
+}
+.menutext{
+    font-size: 0.75em;
+    font-weight: 540;
+}
+.menusymbol{
+    display: none;
+}
+.banner{
+    /* height: 100%; */
+    width: 100%;
+    margin-top: 10%;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.brandsection{
+    height: 100%;
+    width: 100%;
+    padding: 3em;
+    margin-top: 3em;
+}
+.brandheading{
+    height: 10%;
+    width: 100%;
+    padding-bottom: 4em;
+    font-size: 0.9em;
+}
+.brandgrid{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.segmentcards{   
+    height: 290px;
+    width: 190px;
+    transition: 0.2s;
+}
+.segmentcards img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.segmentcards:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.categorysection{
+    height: 100%;
+    width: 100%;
+    margin-top: 3em;
+}
+.categoryheading{
+    height: 10%;
+    width: 100%;
+    padding: 4em 3em 0em 3.3em;
+}
+.categorygrid{
+    padding: 3em;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.categorycard{
+    height: 350px;
+    width: 230px;
+    transition: 0.2s;
+}
+
+.categorycard img{
+    height: 100%;
+    width: 100%;
+}
+
+.categorycard:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.footercontainer{
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footicon{
+    height: 50px;
+    width: 100px;
+}
+.footicon img{
+    height: 100%;
+    width: 100%;
+}
+.footicon:hover{
+    cursor: pointer;
+}
+.footrighticon{
+    height: 45px;
+    width: 45px;
+}
+.footrighticon img{
+    height: 100%;
+    width: 100%;
+}
+.footrighticon:hover{
+    cursor: pointer;
+}
+.leftfoot:hover{
+    cursor: pointer;
+}
+
+@media (max-width : 980px) {
+    .typesection{
+        display: none;
+    }
+    #search{
+        display: none;
+    }
+    .searchicon{
+        background-color: white;
+    }
+    .menu{
+        display: none;
+    }
+    .menusymbol{
+        display: block;
+        color: rgb(15, 15, 15);
+        font-size: 170%;
+        font-weight: 600;
+    }
+}
+@media (max-width:600px) {
+    .footercontainer{
+        flex-direction: column;
+    }
+    .banner{
+        margin-top: 60px;
+    }
+}
+@media (max-width:300px) {
+
+    .banner{
+        margin-top: 100px;
+        height: 150%;
+    }
+}
+

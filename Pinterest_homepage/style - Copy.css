@@ -1,0 +1,129 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.navbar
+{
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+
+}
+.profilepic{
+    height: 30px;
+    width: 30px;
+}
+
+.profilepic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; 
+}
+.searchbar{
+    height: 70%;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.searchbar input{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(223, 220, 220);
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    padding-left: 20px;
+}
+.home{
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.logo:hover,.home:hover,.explore:hover,.create:hover,.bellicon:hover,.messageicon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainbody{
+    height: 100%;
+    width: 100%;
+    padding: 70px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image{
+    
+    width: 190px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+
+.overlay{
+    height:100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;   
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+.searcharea{
+    height:auto;
+    width: 60%;
+    background-color: #fff;
+    position: fixed;
+    top: 60px;
+    left: 26%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 5px 5px;
+    z-index: 20;
+    display: none;
+    overflow: auto;
+    
+}
+.searchtext{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 20px;
+    gap: 10px;
+    
+}
+.searchtext:hover{
+    cursor: pointer;
+}
