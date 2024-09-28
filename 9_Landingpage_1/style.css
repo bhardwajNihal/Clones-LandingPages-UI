@@ -1,0 +1,117 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.maincontainer{
+    height: 100vh;width: 100vw;
+    background-color: white;
+    font-family: "Rubik", sans-serif;   
+}
+#navbar{
+    box-sizing: border-box;
+    height: 9vh;width: 100vw;
+    background-color: rgb(245, 247, 249);
+    border-bottom: 3px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.logo{
+    color:rgb(17, 17, 17);
+    padding: 30px;
+    font-size: 3vmax;
+    font-weight: 700;
+}
+#icon{
+display: none;
+}
+.more{
+    align-items: center;
+    font-size: 1.5vmax;
+    display: flex;
+    padding: 30px;
+    gap: 25px   ;
+    color:rgb(19, 19, 19);
+}
+.content{
+    height: 91vh;width: 100vw;
+    display: flex;
+}
+.boxleft{
+    height: 100%;width: 50%;
+    padding: 30px;
+}
+.boxleft h2{
+    font-size: 3.5em;
+}
+.boxleft span{
+    color:rgb(20, 137, 210);
+}
+.boxleft p{
+    margin-top: 2em;
+    margin-bottom: 3em;
+    color: rgb(75, 75, 75);
+    font-size: 0.8em;
+}
+button{
+    background-color:rgb(20, 137, 210) ;
+    padding: 0.5em 0.3em;
+    font-size: 1.3em;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px rgb(70, 70, 70) ;
+}
+.boxright{
+    width: 50%;
+    height: 100%;
+}
+.boxright img{
+    height:95%;
+    width: 95%;
+}
+#signin{
+    font-size: 1em;
+    padding: 0.2em 0.2em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+}
+@media (max-width:700px) {
+    .info{
+        display: none;
+    }
+    #icon{
+        display: block;
+        color: rgb(15, 15, 15);
+        font-size: 170%;
+        font-weight: 600;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .boxleft{
+        width: 100%;
+        height: 200%;
+        background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/programmer-doing-coding-4425873-3964032.png);
+        background-size: contain;
+        background-repeat: no-repeat;;
+    }
+    .boxleft h2{
+        font-size: 2.8em;
+    }
+    .boxright{
+        display: none;
+    }   
+    button{
+        size: 0.9em;
+        padding: 0.4em 0.3em;
+    }
+
+}

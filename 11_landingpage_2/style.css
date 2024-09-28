@@ -1,0 +1,176 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 5vw;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menutext{
+    border: solid 0.8px black;
+    padding: 0.3em 0.7em;
+    border-radius: 35px;
+}
+.menuicon{
+    border: solid 0.8px black;
+    padding: 0.3em 0.5em;
+    border-radius: 35px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+.logoicon{
+    font-size: 0.85em;
+    padding: 0.29em 0.4em;
+    color: white;
+    background-color: rgb(252, 81, 3);
+    border-radius: 100%;
+}
+.logoname{
+    font-weight: 530;
+    font-size: 1.3em;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    border: solid 0.8px black;
+    padding: 0.3em 0.7em;
+    border-radius: 35px;
+}
+.signup{
+    border-radius: 35px;
+    padding: 0.3em 0.5em;
+    background-color:rgb(252, 81, 3);
+    color: white;
+}
+.herosection{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+.mainline{
+    font-size: 8em;
+    height: 2vh;
+    font-family: "Noto Sans", sans-serif;
+    padding-top: 0.9em;
+}
+.image1{
+    position:absolute;
+    z-index: 30;
+    height: 59vh;
+    width: 23vw;
+    border: 3.4px solid rgb(217, 217, 242);
+    border-radius: 22px;
+    margin-top: 4em;
+    transform: rotateZ(-8deg);
+}
+.image1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 22px;  
+}
+
+.image2{
+    position:absolute;
+    z-index: 20;
+    height: 59vh;
+    width: 23vw;
+    border-radius: 22px;
+    margin-top: 4em;
+    transform: rotateZ(-15deg);
+}
+.image2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 22px;  
+}
+
+.image3{
+    position:absolute;
+    z-index: 10;
+    height: 59vh;
+    width: 23vw;
+    /* border: 3.4px solid rgb(236, 236, 250); */
+    border-radius: 22px;
+    margin-top: 4em;
+    transform: rotateZ(-25deg);
+}
+.image3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 22px;  
+}
+
+.image4{
+    position:absolute;
+    z-index: 40;
+    height: 59vh;
+    width: 23vw;
+    /* border: 3.4px solid rgb(236, 236, 250); */
+    border-radius: 22px;
+    margin-top: 4em;
+    transform: rotateZ(0deg);
+    overflow: hidden;
+}
+
+.image4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 22px;  
+    object-fit: cover;
+    object-position: top;
+}
+#visiblepart{
+    position:relative;
+    z-index: 500;
+    color: rgb(255, 255, 255);
+}
+
+.bottomsection{
+height: 10%;
+padding:0 4em;
+}
+.firstline{
+height: 40%;
+display: flex;
+justify-content: space-between;
+}
+.bicon1 img{
+    height: 40%;
+    margin: -0.6em 0;
+}
+.bicon2{
+    display: flex;
+    gap: 0.5em;
+    color: rgb(85, 85, 85);
+}
+.secondline{
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomtext{
+    font-size: 0.9em;
+    color: rgb(85, 85, 85);
+}

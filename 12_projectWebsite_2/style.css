@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.mainbody{
+    height: 100%;width: 100vw;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1.5em 3em;
+    gap: 0.3em;
+}
+.text1{
+    border: solid 1px black;
+    padding: 0.6em 0.9em;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.menu{
+    border: solid 1px black;
+    padding: 0.6em 0.9em;
+    border-radius: 48px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.herotext{
+    height: 55vh;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.namepart{
+    height: 45vh;
+    width: 100%;
+}
+.namepart h1{
+    font-size: 7em;
+    padding-left: 0.4em;
+    padding-right: 25%;
+    font-family: "Roboto", sans-serif;
+}
+.bottomtext{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 550;
+    padding: 1em 2em;
+}
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-weight: 550;
+}
+.scrollicon{
+    transform: rotateZ(90deg);
+}
+.heroimage{
+    height: 80vh;
+    width: 100%;
+}
+.heroimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.aboutsection{
+    height: 55vh;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-bottom: solid black 2px;
+}
+.leftpart{
+height: 80%;
+width: 65%;
+background-color: white;
+margin-top: 2em;
+border-right: solid black 2px;
+}
+.leftpart p{
+    font-size: 3.4em;
+    font-weight: 520;
+    padding-right: 1em;
+}
+
+.rightpart{
+    height: 80%;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aboutme{
+    margin-left: 1.5em;
+    font-weight: 700;
+}
+.socialicons{
+    display: flex;
+    gap: 1.3em;
+    margin-left: 1.5em;
+}
+.icon{
+    background-color: rgb(58, 57, 57);
+    padding: 0.4em 0.5em;
+    font-size: 0.9em;
+    border-radius: 100%;
+    color: white;
+}
+.whatidosection{
+    height: 60vh;
+    width: 90%;
+    padding: 1.3em;
+    margin: auto;
+    /* background-color: rgb(227, 243, 255); */
+    display: flex;
+    align-items: center;
+}
+.doleft{
+    height: 90%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color:lightgreen; */
+    padding-right: 1.5em;
+    border-right: 2px solid black;
+}
+.dolefttext{
+    font-weight: 600;
+}
+.dolefticon{
+    height: 4vh;
+    transform: rotateZ(90deg);
+}
+.doright{
+    height: 90%;
+    width: 65%;
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* row-gap: 1.5em; */
+    padding: 1em;
+}
+.list1{
+    /* background-color: red; */
+    padding: 1em;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.list2{
+    /* background-color: blue; */
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+.list3{
+    /* background-color:green; */
+    padding: 1em;
+    border-right: 2px solid black;
+}
+.list4{
+    /* background-color:yellow; */
+    padding: 1em;
+}
+.doright h2{
+    font-weight: 680;
+}
+.doright p{
+    font-size: 0.8em;
+    color: grey;
+}
