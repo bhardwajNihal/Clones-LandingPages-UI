@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Varsha's fitness</title>
+        <style>
+        /* CSS reset */
+        body{
+            margin:12px;
+            padding: 12px;
+            background: url('./Clone_2_Netflix/assets/header-image.png');
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            background-color:white;
+            color: rgb(4, 44, 44);
+            font-size: larger;
+        }
+        .mid{
+            display: block;
+            width:23%;
+            margin: auto;
+            background-color:white;
+            color: rgb(4, 26, 26);
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px ;
+        }
+        .navbar li a{
+            color: rgb(223, 208, 208);
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+        .navbar ul{
+            display:inline-block ;
+        }
+        .btn{
+        margin: 0px 9px;
+        background-color: rgb(240, 233, 233);
+        color: rgb(32, 21, 4);
+        }
+        .btn:hover{
+            background-color:orchid;
+        }
+        .container{
+            border: 2px solid #011301;
+            margin: 80px 55pxpx;
+            padding: 75px 25px;
+            width: 33%;
+            border-radius: 10px 10px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 10px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+        .container h3{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+
+    </style>
+    </head>
+    <body>
+        <header class="header">
+            <!-- left box for logo -->
+             <div>
+                <div class="left">
+                    <img scr="./CSS/pexels-kokorevas-12670543.jpg"alt="">
+                    <div>Varsha's Fitness</div>
+                </div>
+                <!-- Mid box for navbar -->
+                <div class="mid">
+                    <ul class="navbar"></ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Fitness Calculator</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <button class="btn">Call us now </button>
+                    <button class="btn">Email us</button>
+                </div>
+             </div>
+        </header>
+        <div class="container">
+            <h3>Join the best gym of Delhi now</h3>
+            <form action="noaction.php">
+                <div class="from-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="from-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                </div>
+                <div class="from-group">
+                    <input type="text" name="" placeholder="Enter your gender">
+                </div>
+                <div class="from-group">
+                    <input type="text" name="" placeholder="Enter your locality">
+                </div> 
+                <div class="from-group">
+                    <input type="text" name="" placeholder="Enter your email id">
+                </div> 
+                <div class="from-group">
+                    <input type="text" name="" placeholder="Enter your phone number">
+                </div> 
+                <button class="btn">Submit</button>   
+        </div>
+    </body>
+</html>
